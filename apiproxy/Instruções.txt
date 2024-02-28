@@ -1,0 +1,15 @@
+GERADOR DE CHECKUSER COM PROXY_API INCLUSO!
+
+De permissão 777 a pasta toda!
+
+Mude a senha no arquivo password.txt!
+
+vc pode ter mais de uma senha
+
+exemplo:
+
+senha1
+senha2
+senha3
+
+Só seguir dessa forma!

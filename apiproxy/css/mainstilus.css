@@ -1,0 +1,284 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    color: #22662d;
+}
+
+#ipForm {
+    background-color: rgba(39, 85, 66, 0.575);
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgb(15, 61, 43);
+    padding: 30px;
+    margin-top: 10px;
+    width: 80%;
+    max-width: 400px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+#form {
+display: flex;
+   width: 100%;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: large;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border: 1px solid #37633b;
+    border-radius: 7px;
+    background-color: #83a069;
+    color: #000;
+    transition: border-color 0.5s, background-color 0.5s;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border: 1px solid #37633b;
+    border-radius: 7px;
+    background-color: #83a069;
+    color: #000;
+    transition: border-color 0.5s, background-color 0.5s;
+    }
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+#submitIPaddress {
+    background-color: #3f448d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 0px 15px #202020;
+}
+
+#btnvoltar {
+    background-color: #FF0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 0px 15px #202020;
+}
+
+#submitIPdelete {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 30px;
+    box-shadow: 0px 0px 15px #202020;
+}
+
+#agregarIPBtn1 {
+    background-color: #3f448d;
+    color: #fff;
+    padding: 8px 17px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 0px 15px #202020;
+}
+
+#submitIPaddress:hover {
+    background-color: #5f639f;
+    outline: none;
+}
+
+#btnvoltar:hover {
+    background-color: #5f639f;
+    outline: none;
+}
+
+#submitIPdelete:hover {
+    background-color: #e64959;
+    outline: none;
+}
+
+#agregarIPBtn1:hover {
+    background-color: #5f639f;
+    outline: none;
+}
+
+input:focus {
+    border-color: #202020;
+    background-color: #c4c4c4;
+    outline: none;
+}
+
+#resultContainer {
+    background-color: #19351bab;
+    padding: 20px;
+    width: 410px;
+    border-radius: 35px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 7vw rgba(72, 119, 80, 0.651);
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 10px;
+        flex-direction: column;
+        height: 100vh;
+        color: #fff;
+        background-image: url('fundo.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: #22662d;
+    }
+
+    label {
+        padding: 5px 0px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border: 1px solid #37633b;
+        border-radius: 10px;
+        background-color: #83a069;
+        color: #000;
+        transition: border-color 0.5s, background-color 0.5s;
+    }
+	
+	select {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border: 1px solid #37633b;
+        border-radius: 10px;
+        background-color: #83a069;
+        color: #000;
+        transition: border-color 0.5s, background-color 0.5s;
+    }
+
+    #ipForm {
+        background-color: rgba(39, 85, 66, 0.575);
+        border-radius: 10px;
+        box-shadow: 5px 5px 30px rgb(15, 61, 43);
+        padding: 20px;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: background-color 0.5s, box-shadow 0.5s;
+    }
+	
+	#form {
+display: flex;
+   width: 85%;
+    
+}
+
+    #container {
+		display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #resultContainer {
+        background-color: #19351bab;
+        padding: 0px;
+        width: 85%;
+        border-radius: 15px;
+        margin-top: 20px;
+        box-shadow: 0px 0px 7vw rgba(72, 119, 80, 0.651);
+    }
+
+    #submitIPaddress,
+	#btnvoltar,
+    #submitIPdelete,
+    #agregarIPBtn1 {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        box-shadow: 0px 0px 15px #202020;
+        font-size: 16px;
+    }
+    
+    #submitIPaddress:hover,
+	#btnvoltar:hover,
+    #submitIPdelete:hover,
+    #agregarIPBtn1:hover {
+        background-color: #5f639f;
+        outline: none;
+    }
+    
+}
